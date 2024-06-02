@@ -5,7 +5,7 @@ int main() {
     int age = 16;
 
     cout << "Name: " << name << endl;   //cout
-    cout << "Age: " << age << endl;     //end
+    cout << "Age: " << age << endl;     //endl
 
 
 
