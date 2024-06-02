@@ -15,6 +15,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2024-03-06 (For, Include cy
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2024-03-08 (Array)", "2024-03-08 (Array)\2024-03-08 (Array).vcxproj", "{14199886-6E03-415F-8C06-2CB27CB8B74C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2024-03-11 (Multidimensional arrays)", "2024-03-11 (Multidimensional arrays)\2024-03-11 (Multidimensional arrays).vcxproj", "{5211E404-236F-4D37-ACC1-527CB20611CA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -71,6 +73,14 @@ Global
 		{14199886-6E03-415F-8C06-2CB27CB8B74C}.Release|x64.Build.0 = Release|x64
 		{14199886-6E03-415F-8C06-2CB27CB8B74C}.Release|x86.ActiveCfg = Release|Win32
 		{14199886-6E03-415F-8C06-2CB27CB8B74C}.Release|x86.Build.0 = Release|Win32
+		{5211E404-236F-4D37-ACC1-527CB20611CA}.Debug|x64.ActiveCfg = Debug|x64
+		{5211E404-236F-4D37-ACC1-527CB20611CA}.Debug|x64.Build.0 = Debug|x64
+		{5211E404-236F-4D37-ACC1-527CB20611CA}.Debug|x86.ActiveCfg = Debug|Win32
+		{5211E404-236F-4D37-ACC1-527CB20611CA}.Debug|x86.Build.0 = Debug|Win32
+		{5211E404-236F-4D37-ACC1-527CB20611CA}.Release|x64.ActiveCfg = Release|x64
+		{5211E404-236F-4D37-ACC1-527CB20611CA}.Release|x64.Build.0 = Release|x64
+		{5211E404-236F-4D37-ACC1-527CB20611CA}.Release|x86.ActiveCfg = Release|Win32
+		{5211E404-236F-4D37-ACC1-527CB20611CA}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
