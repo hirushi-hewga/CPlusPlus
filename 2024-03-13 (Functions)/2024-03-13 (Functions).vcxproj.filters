@@ -18,6 +18,9 @@
     <ClCompile Include="Lesson.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="HW.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header.h">
