@@ -25,6 +25,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2024-03-18 (Lenear search, 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2024-03-20 (Pointers)", "2024-03-20 (Pointers)\2024-03-20 (Pointers).vcxproj", "{14A7CA03-F3A9-4CE0-A1DB-ED8CF8851E22}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2024-03-22 (Links, Set position, Set color, Setw)", "2024-03-22 (Links, Set position, Set color, Setw)\2024-03-22 (Links, Set position, Set color, Setw).vcxproj", "{3F504D64-FEEB-4DE5-A6B8-FDCA2F551CAE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -121,6 +123,14 @@ Global
 		{14A7CA03-F3A9-4CE0-A1DB-ED8CF8851E22}.Release|x64.Build.0 = Release|x64
 		{14A7CA03-F3A9-4CE0-A1DB-ED8CF8851E22}.Release|x86.ActiveCfg = Release|Win32
 		{14A7CA03-F3A9-4CE0-A1DB-ED8CF8851E22}.Release|x86.Build.0 = Release|Win32
+		{3F504D64-FEEB-4DE5-A6B8-FDCA2F551CAE}.Debug|x64.ActiveCfg = Debug|x64
+		{3F504D64-FEEB-4DE5-A6B8-FDCA2F551CAE}.Debug|x64.Build.0 = Debug|x64
+		{3F504D64-FEEB-4DE5-A6B8-FDCA2F551CAE}.Debug|x86.ActiveCfg = Debug|Win32
+		{3F504D64-FEEB-4DE5-A6B8-FDCA2F551CAE}.Debug|x86.Build.0 = Debug|Win32
+		{3F504D64-FEEB-4DE5-A6B8-FDCA2F551CAE}.Release|x64.ActiveCfg = Release|x64
+		{3F504D64-FEEB-4DE5-A6B8-FDCA2F551CAE}.Release|x64.Build.0 = Release|x64
+		{3F504D64-FEEB-4DE5-A6B8-FDCA2F551CAE}.Release|x86.ActiveCfg = Release|Win32
+		{3F504D64-FEEB-4DE5-A6B8-FDCA2F551CAE}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
