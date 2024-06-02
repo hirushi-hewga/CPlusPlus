@@ -17,6 +17,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2024-03-08 (Array)", "2024-
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2024-03-11 (Multidimensional arrays)", "2024-03-11 (Multidimensional arrays)\2024-03-11 (Multidimensional arrays).vcxproj", "{5211E404-236F-4D37-ACC1-527CB20611CA}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2024-03-13 (Functions)", "2024-03-13 (Functions)\2024-03-13 (Functions).vcxproj", "{265C51A5-3E0A-4A0E-8829-00ED6D61364B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -81,6 +83,14 @@ Global
 		{5211E404-236F-4D37-ACC1-527CB20611CA}.Release|x64.Build.0 = Release|x64
 		{5211E404-236F-4D37-ACC1-527CB20611CA}.Release|x86.ActiveCfg = Release|Win32
 		{5211E404-236F-4D37-ACC1-527CB20611CA}.Release|x86.Build.0 = Release|Win32
+		{265C51A5-3E0A-4A0E-8829-00ED6D61364B}.Debug|x64.ActiveCfg = Debug|x64
+		{265C51A5-3E0A-4A0E-8829-00ED6D61364B}.Debug|x64.Build.0 = Debug|x64
+		{265C51A5-3E0A-4A0E-8829-00ED6D61364B}.Debug|x86.ActiveCfg = Debug|Win32
+		{265C51A5-3E0A-4A0E-8829-00ED6D61364B}.Debug|x86.Build.0 = Debug|Win32
+		{265C51A5-3E0A-4A0E-8829-00ED6D61364B}.Release|x64.ActiveCfg = Release|x64
+		{265C51A5-3E0A-4A0E-8829-00ED6D61364B}.Release|x64.Build.0 = Release|x64
+		{265C51A5-3E0A-4A0E-8829-00ED6D61364B}.Release|x86.ActiveCfg = Release|Win32
+		{265C51A5-3E0A-4A0E-8829-00ED6D61364B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
