@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2024-02-26 (Intro to C++)",
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2024-02-28 (Variables, Data types)", "2024-02-28 (Variables, Data types)\2024-02-28 (Variables, Data types).vcxproj", "{FCF7D1EB-20C7-4CF1-B70D-598B19B61525}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2024-03-01 (Logical operators, Branching operators)", "2024-03-01 (Logical operators, Branching operators)\2024-03-01 (Logical operators, Branching operators).vcxproj", "{95F57822-8939-4665-B29F-65163F997237}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{FCF7D1EB-20C7-4CF1-B70D-598B19B61525}.Release|x64.Build.0 = Release|x64
 		{FCF7D1EB-20C7-4CF1-B70D-598B19B61525}.Release|x86.ActiveCfg = Release|Win32
 		{FCF7D1EB-20C7-4CF1-B70D-598B19B61525}.Release|x86.Build.0 = Release|Win32
+		{95F57822-8939-4665-B29F-65163F997237}.Debug|x64.ActiveCfg = Debug|x64
+		{95F57822-8939-4665-B29F-65163F997237}.Debug|x64.Build.0 = Debug|x64
+		{95F57822-8939-4665-B29F-65163F997237}.Debug|x86.ActiveCfg = Debug|Win32
+		{95F57822-8939-4665-B29F-65163F997237}.Debug|x86.Build.0 = Debug|Win32
+		{95F57822-8939-4665-B29F-65163F997237}.Release|x64.ActiveCfg = Release|x64
+		{95F57822-8939-4665-B29F-65163F997237}.Release|x64.Build.0 = Release|x64
+		{95F57822-8939-4665-B29F-65163F997237}.Release|x86.ActiveCfg = Release|Win32
+		{95F57822-8939-4665-B29F-65163F997237}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
