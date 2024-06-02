@@ -21,6 +21,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2024-03-13 (Functions)", "2
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2024-03-14 (Overload funtions)", "2024-03-14 (Overload funtions)\2024-03-14 (Overload funtions).vcxproj", "{E8942F7D-4356-4F03-9CB5-5F44DFEE1579}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2024-03-18 (Lenear search, Sort)", "2024-03-18 (Lenear search, Sort)\2024-03-18 (Lenear search, Sort).vcxproj", "{CE1E3777-9E64-460B-83E0-302C86596213}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -101,6 +103,14 @@ Global
 		{E8942F7D-4356-4F03-9CB5-5F44DFEE1579}.Release|x64.Build.0 = Release|x64
 		{E8942F7D-4356-4F03-9CB5-5F44DFEE1579}.Release|x86.ActiveCfg = Release|Win32
 		{E8942F7D-4356-4F03-9CB5-5F44DFEE1579}.Release|x86.Build.0 = Release|Win32
+		{CE1E3777-9E64-460B-83E0-302C86596213}.Debug|x64.ActiveCfg = Debug|x64
+		{CE1E3777-9E64-460B-83E0-302C86596213}.Debug|x64.Build.0 = Debug|x64
+		{CE1E3777-9E64-460B-83E0-302C86596213}.Debug|x86.ActiveCfg = Debug|Win32
+		{CE1E3777-9E64-460B-83E0-302C86596213}.Debug|x86.Build.0 = Debug|Win32
+		{CE1E3777-9E64-460B-83E0-302C86596213}.Release|x64.ActiveCfg = Release|x64
+		{CE1E3777-9E64-460B-83E0-302C86596213}.Release|x64.Build.0 = Release|x64
+		{CE1E3777-9E64-460B-83E0-302C86596213}.Release|x86.ActiveCfg = Release|Win32
+		{CE1E3777-9E64-460B-83E0-302C86596213}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
