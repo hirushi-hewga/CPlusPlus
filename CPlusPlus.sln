@@ -31,6 +31,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2024-03-22 (C-style)", "202
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2024-03-25 (Dynamic memory)", "2024-03-25 (Dynamic memory)\2024-03-25 (Dynamic memory).vcxproj", "{8A694FFE-4105-489F-9E91-A6E73951D772}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2024-03-27 (Two dynam arr)", "2024-03-27 (Two dynam arr)\2024-03-27 (Two dynam arr).vcxproj", "{B4EF987E-8E8C-43F9-84C5-20507FA9D90B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -151,6 +153,14 @@ Global
 		{8A694FFE-4105-489F-9E91-A6E73951D772}.Release|x64.Build.0 = Release|x64
 		{8A694FFE-4105-489F-9E91-A6E73951D772}.Release|x86.ActiveCfg = Release|Win32
 		{8A694FFE-4105-489F-9E91-A6E73951D772}.Release|x86.Build.0 = Release|Win32
+		{B4EF987E-8E8C-43F9-84C5-20507FA9D90B}.Debug|x64.ActiveCfg = Debug|x64
+		{B4EF987E-8E8C-43F9-84C5-20507FA9D90B}.Debug|x64.Build.0 = Debug|x64
+		{B4EF987E-8E8C-43F9-84C5-20507FA9D90B}.Debug|x86.ActiveCfg = Debug|Win32
+		{B4EF987E-8E8C-43F9-84C5-20507FA9D90B}.Debug|x86.Build.0 = Debug|Win32
+		{B4EF987E-8E8C-43F9-84C5-20507FA9D90B}.Release|x64.ActiveCfg = Release|x64
+		{B4EF987E-8E8C-43F9-84C5-20507FA9D90B}.Release|x64.Build.0 = Release|x64
+		{B4EF987E-8E8C-43F9-84C5-20507FA9D90B}.Release|x86.ActiveCfg = Release|Win32
+		{B4EF987E-8E8C-43F9-84C5-20507FA9D90B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
