@@ -33,6 +33,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2024-03-25 (Dynamic memory)
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2024-03-27 (Two dynam arr)", "2024-03-27 (Two dynam arr)\2024-03-27 (Two dynam arr).vcxproj", "{B4EF987E-8E8C-43F9-84C5-20507FA9D90B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2024-03-29 (Struct)", "2024-03-29 (Struct)\2024-03-29 (Struct).vcxproj", "{1B3000E3-AC02-40B5-BB89-062B855D994E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -161,6 +163,14 @@ Global
 		{B4EF987E-8E8C-43F9-84C5-20507FA9D90B}.Release|x64.Build.0 = Release|x64
 		{B4EF987E-8E8C-43F9-84C5-20507FA9D90B}.Release|x86.ActiveCfg = Release|Win32
 		{B4EF987E-8E8C-43F9-84C5-20507FA9D90B}.Release|x86.Build.0 = Release|Win32
+		{1B3000E3-AC02-40B5-BB89-062B855D994E}.Debug|x64.ActiveCfg = Debug|x64
+		{1B3000E3-AC02-40B5-BB89-062B855D994E}.Debug|x64.Build.0 = Debug|x64
+		{1B3000E3-AC02-40B5-BB89-062B855D994E}.Debug|x86.ActiveCfg = Debug|Win32
+		{1B3000E3-AC02-40B5-BB89-062B855D994E}.Debug|x86.Build.0 = Debug|Win32
+		{1B3000E3-AC02-40B5-BB89-062B855D994E}.Release|x64.ActiveCfg = Release|x64
+		{1B3000E3-AC02-40B5-BB89-062B855D994E}.Release|x64.Build.0 = Release|x64
+		{1B3000E3-AC02-40B5-BB89-062B855D994E}.Release|x86.ActiveCfg = Release|Win32
+		{1B3000E3-AC02-40B5-BB89-062B855D994E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
