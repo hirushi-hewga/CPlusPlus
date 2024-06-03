@@ -41,6 +41,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2024-04-03 (Intro to OOP)",
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2024-04-05 (Constructor, Destructor)", "2024-04-05 (Constructor, Destructor)\2024-04-05 (Constructor, Destructor).vcxproj", "{1C446D3B-30B2-4161-86B2-659D18F376FC}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2024-04-08 (Copy constructor)", "2024-04-08 (Copy constructor)\2024-04-08 (Copy constructor).vcxproj", "{FC853B3D-ACD6-4045-A682-0FDE75916FCF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -201,6 +203,14 @@ Global
 		{1C446D3B-30B2-4161-86B2-659D18F376FC}.Release|x64.Build.0 = Release|x64
 		{1C446D3B-30B2-4161-86B2-659D18F376FC}.Release|x86.ActiveCfg = Release|Win32
 		{1C446D3B-30B2-4161-86B2-659D18F376FC}.Release|x86.Build.0 = Release|Win32
+		{FC853B3D-ACD6-4045-A682-0FDE75916FCF}.Debug|x64.ActiveCfg = Debug|x64
+		{FC853B3D-ACD6-4045-A682-0FDE75916FCF}.Debug|x64.Build.0 = Debug|x64
+		{FC853B3D-ACD6-4045-A682-0FDE75916FCF}.Debug|x86.ActiveCfg = Debug|Win32
+		{FC853B3D-ACD6-4045-A682-0FDE75916FCF}.Debug|x86.Build.0 = Debug|Win32
+		{FC853B3D-ACD6-4045-A682-0FDE75916FCF}.Release|x64.ActiveCfg = Release|x64
+		{FC853B3D-ACD6-4045-A682-0FDE75916FCF}.Release|x64.Build.0 = Release|x64
+		{FC853B3D-ACD6-4045-A682-0FDE75916FCF}.Release|x86.ActiveCfg = Release|Win32
+		{FC853B3D-ACD6-4045-A682-0FDE75916FCF}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
