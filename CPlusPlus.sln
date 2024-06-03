@@ -61,6 +61,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2024-04-19 (Overload data t
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2024-04-22 (Class template)", "2024-04-22 (Class template)\2024-04-22 (Class template).vcxproj", "{1B1F8EE1-55FA-4A9E-A6F9-AA55655D70A2}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2024-04-22 (Initializer list)", "2024-04-22 (Initializer list)\2024-04-22 (Initializer list).vcxproj", "{A7231248-0F71-4DE4-B810-F3A824A43308}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -301,6 +303,14 @@ Global
 		{1B1F8EE1-55FA-4A9E-A6F9-AA55655D70A2}.Release|x64.Build.0 = Release|x64
 		{1B1F8EE1-55FA-4A9E-A6F9-AA55655D70A2}.Release|x86.ActiveCfg = Release|Win32
 		{1B1F8EE1-55FA-4A9E-A6F9-AA55655D70A2}.Release|x86.Build.0 = Release|Win32
+		{A7231248-0F71-4DE4-B810-F3A824A43308}.Debug|x64.ActiveCfg = Debug|x64
+		{A7231248-0F71-4DE4-B810-F3A824A43308}.Debug|x64.Build.0 = Debug|x64
+		{A7231248-0F71-4DE4-B810-F3A824A43308}.Debug|x86.ActiveCfg = Debug|Win32
+		{A7231248-0F71-4DE4-B810-F3A824A43308}.Debug|x86.Build.0 = Debug|Win32
+		{A7231248-0F71-4DE4-B810-F3A824A43308}.Release|x64.ActiveCfg = Release|x64
+		{A7231248-0F71-4DE4-B810-F3A824A43308}.Release|x64.Build.0 = Release|x64
+		{A7231248-0F71-4DE4-B810-F3A824A43308}.Release|x86.ActiveCfg = Release|Win32
+		{A7231248-0F71-4DE4-B810-F3A824A43308}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
