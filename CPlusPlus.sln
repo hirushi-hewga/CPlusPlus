@@ -79,6 +79,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2024-05-13 (Inheritance, Po
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2024-05-15 (Abstract class)", "2024-05-15 (Abstract class)\2024-05-15 (Abstract class).vcxproj", "{F4FCD0C8-6F6B-44B1-BD87-582102E66C38}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2024-05-17 (Multi inheritance)", "2024-05-17 (Multi inheritance)\2024-05-17 (Multi inheritance).vcxproj", "{38C9BAB8-CAD7-464F-8421-99EE0D509BE5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -391,6 +393,14 @@ Global
 		{F4FCD0C8-6F6B-44B1-BD87-582102E66C38}.Release|x64.Build.0 = Release|x64
 		{F4FCD0C8-6F6B-44B1-BD87-582102E66C38}.Release|x86.ActiveCfg = Release|Win32
 		{F4FCD0C8-6F6B-44B1-BD87-582102E66C38}.Release|x86.Build.0 = Release|Win32
+		{38C9BAB8-CAD7-464F-8421-99EE0D509BE5}.Debug|x64.ActiveCfg = Debug|x64
+		{38C9BAB8-CAD7-464F-8421-99EE0D509BE5}.Debug|x64.Build.0 = Debug|x64
+		{38C9BAB8-CAD7-464F-8421-99EE0D509BE5}.Debug|x86.ActiveCfg = Debug|Win32
+		{38C9BAB8-CAD7-464F-8421-99EE0D509BE5}.Debug|x86.Build.0 = Debug|Win32
+		{38C9BAB8-CAD7-464F-8421-99EE0D509BE5}.Release|x64.ActiveCfg = Release|x64
+		{38C9BAB8-CAD7-464F-8421-99EE0D509BE5}.Release|x64.Build.0 = Release|x64
+		{38C9BAB8-CAD7-464F-8421-99EE0D509BE5}.Release|x86.ActiveCfg = Release|Win32
+		{38C9BAB8-CAD7-464F-8421-99EE0D509BE5}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
