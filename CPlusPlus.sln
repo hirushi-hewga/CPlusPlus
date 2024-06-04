@@ -71,6 +71,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2024-04-26 (Queue with prio
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2024-04-29 (Single linked list)", "2024-04-29 (Single linked list)\2024-04-29 (Single linked list).vcxproj", "{6C0DC9F2-6E3E-4BD5-BDFB-EC16CC5E25EF}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2024-04-30 (Double linked list)", "2024-04-30 (Double linked list)\2024-04-30 (Double linked list).vcxproj", "{F59779AB-3322-43E8-BFD0-8523FF3D7DDF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -351,6 +353,14 @@ Global
 		{6C0DC9F2-6E3E-4BD5-BDFB-EC16CC5E25EF}.Release|x64.Build.0 = Release|x64
 		{6C0DC9F2-6E3E-4BD5-BDFB-EC16CC5E25EF}.Release|x86.ActiveCfg = Release|Win32
 		{6C0DC9F2-6E3E-4BD5-BDFB-EC16CC5E25EF}.Release|x86.Build.0 = Release|Win32
+		{F59779AB-3322-43E8-BFD0-8523FF3D7DDF}.Debug|x64.ActiveCfg = Debug|x64
+		{F59779AB-3322-43E8-BFD0-8523FF3D7DDF}.Debug|x64.Build.0 = Debug|x64
+		{F59779AB-3322-43E8-BFD0-8523FF3D7DDF}.Debug|x86.ActiveCfg = Debug|Win32
+		{F59779AB-3322-43E8-BFD0-8523FF3D7DDF}.Debug|x86.Build.0 = Debug|Win32
+		{F59779AB-3322-43E8-BFD0-8523FF3D7DDF}.Release|x64.ActiveCfg = Release|x64
+		{F59779AB-3322-43E8-BFD0-8523FF3D7DDF}.Release|x64.Build.0 = Release|x64
+		{F59779AB-3322-43E8-BFD0-8523FF3D7DDF}.Release|x86.ActiveCfg = Release|Win32
+		{F59779AB-3322-43E8-BFD0-8523FF3D7DDF}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
