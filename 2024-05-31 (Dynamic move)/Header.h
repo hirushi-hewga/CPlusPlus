@@ -1,0 +1,42 @@
+#pragma once
+#include <iostream>
+#include <Windows.h>
+#include <conio.h>
+#include <chrono>
+using namespace std;
+
+void SetCursorPosition(int x, int y)
+{
+    COORD pos = { x, y };
+    HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
+    SetConsoleCursorPosition(hConsole, pos);
+}
+
+void hidecursor()
+{
+    HANDLE consoleHandle = GetStdHandle(STD_OUTPUT_HANDLE);
+    CONSOLE_CURSOR_INFO info;
+    info.dwSize = 100;
+    info.bVisible = FALSE;
+    SetConsoleCursorInfo(consoleHandle, &info);
+}
+
+enum ConsoleColors {
+    BLACK = 0,
+    DARKBLUE = FOREGROUND_BLUE,
+    DARKGREEN = FOREGROUND_GREEN,
+    DARKCYAN = FOREGROUND_GREEN | FOREGROUND_BLUE,
+    DARKRED = FOREGROUND_RED,
+    DARKMAGENTA = FOREGROUND_RED | FOREGROUND_BLUE,
+    DARKYELLOW = FOREGROUND_RED | FOREGROUND_GREEN,
+    DARKGRAY = FOREGROUND_RED | FOREGROUND_GREEN | FOREGROUND_BLUE,
+    GRAY = FOREGROUND_INTENSITY,
+    BLUE = FOREGROUND_INTENSITY | FOREGROUND_BLUE,
+    GREEN = FOREGROUND_INTENSITY | FOREGROUND_GREEN,
+    CYAN = FOREGROUND_INTENSITY | FOREGROUND_GREEN | FOREGROUND_BLUE,
+    RED = FOREGROUND_INTENSITY | FOREGROUND_RED,
+    MAGENTA = FOREGROUND_INTENSITY | FOREGROUND_RED | FOREGROUND_BLUE,
+    YELLOW = FOREGROUND_INTENSITY | FOREGROUND_RED | FOREGROUND_GREEN,
+    WHITE = FOREGROUND_INTENSITY | FOREGROUND_RED | FOREGROUND_GREEN | FOREGROUND_BLUE,
+};
+static HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
