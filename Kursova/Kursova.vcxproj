@@ -127,13 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Customer.cpp" />
     <ClCompile Include="Menu.cpp" />
-    <ClCompile Include="NovaPoshta.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Customer.h" />
-    <ClInclude Include="NovaPoshta.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
