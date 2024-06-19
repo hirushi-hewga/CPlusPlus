@@ -574,6 +574,7 @@ public:
 			if (performed_in.eof()) break;
 			getline(performed_in, buff_surname);
 			Client client(buff_name, buff_surname);
+			database_of_ordered_services.push_back(client);
 			getline(performed_in, buff_ticket_number);
 			while (buff_ticket_number != "|")
 			{
