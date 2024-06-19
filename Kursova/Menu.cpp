@@ -184,9 +184,10 @@ public:
 				cin >> choice;
 			}
 			system("cls");
+			cin.ignore();
 			string service_;
 			cout << "Enter new service to change : ";
-			cin >> service_;
+			getline(cin, service_);
 			i = 0;
 			for (string& service : services)
 			{
@@ -205,10 +206,11 @@ public:
 	}
 	void AddService()
 	{
+		cin.ignore();
 		system("cls");
 		string newService;
 		cout << "Enter new service to add : ";
-		cin >> newService;
+		getline(cin, newService);
 		services.push_back(newService);
 		cout << endl;
 		cout << "The service has been successfully added" << endl;
@@ -639,6 +641,7 @@ int main()
 {
 	NovaPoshta nova_poshta("Nova Poshta");
 	bool isExit = false;
+	//
 	while (!isExit)
 	{
 		switch (Menu())
