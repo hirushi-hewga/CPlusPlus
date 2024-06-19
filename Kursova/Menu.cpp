@@ -3,6 +3,7 @@
 #include <conio.h>
 #include <vector>
 #include <list>
+#include <string>
 using namespace std;
 
 struct Time
@@ -122,7 +123,7 @@ ofstream& operator <<(ofstream& out, const Client& other)
 	{
 		out << ticket;
 	}
-	out << endl;
+	out << '|' << endl;
 	return out;
 }
 
@@ -500,19 +501,100 @@ public:
 	}
 	void SaveDataBaseOfOrderedServicesToFile()const
 	{
+		ofstream ordered_out("OrderedServices.txt", ios_base::out);
+		
+		for (Client client : database_of_ordered_services)
+		{
+			ordered_out << client;
+		}
 
+		ordered_out.close();
 	}
 	void SaveDataBaseOfPerformedServicesToFile()const
 	{
+		ofstream performed_out("PerformedServices.txt", ios_base::out);
 
+		for (Client client : database_of_performed_services)
+		{
+			performed_out << client;
+		}
+
+		performed_out.close();
 	}
 	void LoadDataBaseOfOrderedServicesFromFile()
 	{
+		database_of_ordered_services.clear();
+		database_of_ordered_services.shrink_to_fit();
+		string symbol;
+		string buff_name, buff_surname, buff_ticket_number, buff_date_mail_sent_years, buff_date_mail_sent_months, buff_date_mail_sent_days, buff_date_mail_sent_hours, buff_date_mail_sent_minutes, buff_order_address, buff_service, buff_mail_weight, buff_cost_of_service;
 
+		ifstream ordered_in("OrderedServices.txt", ios_base::in);
+
+		while (!ordered_in.eof())
+		{
+			getline(ordered_in, buff_name);
+			if (ordered_in.eof()) break;
+			getline(ordered_in, buff_surname);
+			Client client(buff_name, buff_surname);
+			database_of_performed_services.push_back(client);
+			getline(ordered_in, buff_ticket_number);
+			while (buff_ticket_number != "|")
+			{
+				getline(ordered_in, buff_date_mail_sent_years);
+				getline(ordered_in, buff_date_mail_sent_months);
+				getline(ordered_in, buff_date_mail_sent_days);
+				getline(ordered_in, buff_date_mail_sent_hours);
+				getline(ordered_in, buff_date_mail_sent_minutes);
+				getline(ordered_in, buff_order_address);
+				getline(ordered_in, buff_service);
+				getline(ordered_in, buff_mail_weight);
+				getline(ordered_in, buff_cost_of_service);
+
+				client.AddTicket(buff_ticket_number, { stoi(buff_date_mail_sent_years), stoi(buff_date_mail_sent_months), stoi(buff_date_mail_sent_days), stoi(buff_date_mail_sent_hours), stoi(buff_date_mail_sent_minutes) }, buff_order_address, buff_service, stoi(buff_mail_weight), stoi(buff_cost_of_service), false);
+				database_of_ordered_services.push_back(client);
+
+				getline(ordered_in, buff_ticket_number);
+			}
+		}
+
+		ordered_in.close();
 	}
 	void LoadDataBaseOfPerformedServicesFromFile()
 	{
+		database_of_performed_services.clear();
+		database_of_performed_services.shrink_to_fit();
+		string symbol;
+		string buff_name, buff_surname, buff_ticket_number, buff_date_mail_sent_years, buff_date_mail_sent_months, buff_date_mail_sent_days, buff_date_mail_sent_hours, buff_date_mail_sent_minutes, buff_order_address, buff_service, buff_mail_weight, buff_cost_of_service;
 
+		ifstream performed_in("PerformedServices.txt", ios_base::in);
+
+		while (!performed_in.eof())
+		{
+			getline(performed_in, buff_name);
+			if (performed_in.eof()) break;
+			getline(performed_in, buff_surname);
+			Client client(buff_name, buff_surname);
+			getline(performed_in, buff_ticket_number);
+			while (buff_ticket_number != "|")
+			{
+				getline(performed_in, buff_date_mail_sent_years);
+				getline(performed_in, buff_date_mail_sent_months);
+				getline(performed_in, buff_date_mail_sent_days);
+				getline(performed_in, buff_date_mail_sent_hours);
+				getline(performed_in, buff_date_mail_sent_minutes);
+				getline(performed_in, buff_order_address);
+				getline(performed_in, buff_service);
+				getline(performed_in, buff_mail_weight);
+				getline(performed_in, buff_cost_of_service);
+
+				client.AddTicket(buff_ticket_number, { stoi(buff_date_mail_sent_years), stoi(buff_date_mail_sent_months), stoi(buff_date_mail_sent_days), stoi(buff_date_mail_sent_hours), stoi(buff_date_mail_sent_minutes) }, buff_order_address, buff_service, stoi(buff_mail_weight), stoi(buff_cost_of_service), true);
+				database_of_performed_services.push_back(client);
+
+				getline(performed_in, buff_ticket_number);
+			}
+		}
+
+		performed_in.close();
 	}
 };
 
@@ -529,7 +611,7 @@ int Menu()
 		cout << " 2 - Change service" << endl;
 		cout << " 3 - Add service" << endl;
 		cout << " 4 - Delete service" << endl;
-		cout << " 5 - Add client to batabase" << endl;
+		cout << " 5 - Add client" << endl;
 		cout << " 6 - Show clients" << endl;
 		cout << " 7 - Add ticket" << endl;
 		cout << " 8 - Deliver the order" << endl;
